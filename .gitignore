@@ -1,0 +1,16 @@
+# Bicep / ARM
+*.bicep.json
+.bicep/
+
+# Node (if you add tooling later)
+node_modules/
+*.log
+
+# Local env / secrets
+.env
+*.local.json
+local.settings.json
+
+# OS
+.DS_Store
+Thumbs.db
