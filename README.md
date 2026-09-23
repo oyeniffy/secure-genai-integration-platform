@@ -10,6 +10,8 @@ via managed identity, with content filtering and structured audit logging.
 
 ## Architecture
 
+![Systems design diagram](docs/architecture/diagrams/azure-openai-systems-design-seamless.png)
+
 | Component | Azure Service | Purpose |
 |---|---|---|
 | Model endpoint | Azure OpenAI Service | Hosts the LLM, no public endpoint |

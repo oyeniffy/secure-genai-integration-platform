@@ -8,6 +8,8 @@ logging of every prompt and response. This pattern demonstrates how those three
 requirements are satisfied together, using Azure OpenAI as the model platform
 ([ADR-0001](../adr/0001-platform-choice-azure-openai-vs-bedrock.md)).
 
+![Systems design diagram](diagrams/azure-openai-systems-design-seamless.png)
+
 ## Component overview
 
 | Component | Azure Service | Purpose | Why not the alternative |
